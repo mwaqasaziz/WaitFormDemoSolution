@@ -41,7 +41,13 @@
             this.LblWait.Size = new System.Drawing.Size(213, 25);
             this.LblWait.TabIndex = 0;
             this.LblWait.Text = "Please Wait Processing";
-            
+            // 
+            // LblMessages
+            // 
+            this.LblMessages.Location = new System.Drawing.Point(0, 0);
+            this.LblMessages.Name = "LblMessages";
+            this.LblMessages.Size = new System.Drawing.Size(100, 23);
+            this.LblMessages.TabIndex = 0;
             // 
             // WaitForm
             // 
@@ -51,6 +57,7 @@
             this.Controls.Add(this.LblMessages);
             this.Controls.Add(this.LblWait);
             this.Name = "WaitForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Wait Form";
             this.ResumeLayout(false);
             this.PerformLayout();
